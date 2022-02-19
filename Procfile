@@ -1,1 +1,1 @@
-worker: flask run --port=8765
+web: flask run --port=8765
