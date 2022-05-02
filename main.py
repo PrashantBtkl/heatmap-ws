@@ -5,7 +5,7 @@ from flask_socketio import SocketIO
 import db
 
 app = Flask(__name__)
-socketio = SocketIO(app, cors_allowed_origins=['http://127.0.0.1:1234','*'])
+socketio = SocketIO(app, cors_allowed_origins="*")
 
 if __name__ == '__main__':
     socketio.run(app)
